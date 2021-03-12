@@ -5,6 +5,7 @@ public class Q1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+
 	}
 
 }
@@ -33,7 +34,53 @@ class Author{
 		this.email = email;
 	}
 	
+	public char getGender() {
+		return gender;
+	}
 	
 	
+	public String toString() {
+		return name + " ("+ gender+") "+ "at "+email;
+	}
 	
 }
+
+
+
+//class Book{
+//	
+//	private String name;
+//	Author author;
+//	private double price;
+//	private int qty;
+//	
+//	public String getName() {
+//		return name;
+//	}
+//	
+//	public Author getAuthor() {
+//		return author;
+//	}
+//	
+//	public double getPrice() {
+//		return price;
+//	}
+//	
+//	public void setPrice (double price) {
+//		this.price = price;
+//	}
+//	
+//	public int getQty() {
+//		return qty;
+//	}
+//	
+//	public void setQty(int qty) {
+//		this.qty = qty;
+//	}
+//	
+//	public String toString() {
+//		return "' "+name+" ' "+ "by " +author.getName() + " ("+ author.getGender()+") "+ " at "+author.getEmail();
+//
+//	}
+//	
+//}
